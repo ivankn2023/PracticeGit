@@ -11,13 +11,16 @@ Widget::Widget(QWidget *parent)
     QPushButton *btn1 = new QPushButton();
     btn1->setText("click here");
 
-    QPushButton *btn2 = new QPushButton();
-    btn2->setText("no click here!!");
+    QPushButton *btn3 = new QPushButton();
+    btn3->setText("no click here!!");
+
+    QPushButton *btn5 = new QPushButton();
+    btn4->setText("no click here!!");
 
     QVBoxLayout *vlay = new QVBoxLayout(this);
     vlay->addWidget(btn1);
-    vlay->addWidget(btn2);
-
+    vlay->addWidget(btn3);
+    vlay->addWidget(btn5);
 }
 
 Widget::~Widget()
