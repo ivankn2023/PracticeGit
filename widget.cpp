@@ -11,9 +11,12 @@ Widget::Widget(QWidget *parent)
     QPushButton *btn1 = new QPushButton();
     btn1->setText("click here");
 
+    QPushButton *btn2 = new QPushButton();
+    btn2->setText("no click here!!");
+
     QVBoxLayout *vlay = new QVBoxLayout(this);
     vlay->addWidget(btn1);
-
+    vlay->addWidget(btn2);
 
 }
 
